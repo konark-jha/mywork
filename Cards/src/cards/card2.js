@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import imgUrl2 from "../res/img/cover.png";
+import card2_Img from "../res/img/card2_img.png";
 import "../res/css/card2.css";
 
 class Card2 extends Component {
@@ -18,7 +18,7 @@ class Card2 extends Component {
         <div
           className="Card2-img"
           style={{
-            background: "url(" + imgUrl2 + ")",
+            background: "url(" + card2_Img + ")",
             backgroundSize: 415,
             height: 250
           }}

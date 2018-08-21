@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Route, NavLink, HashRouter } from "react-router-dom";
 import card1 from "./cards/card1.js";
 import card2 from "./cards/card2.js";

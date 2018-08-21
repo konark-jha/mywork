@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "dev-server": "0.0.2",
+    "growl": "^1.10.5",
     "nodemon": "^1.18.3",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",

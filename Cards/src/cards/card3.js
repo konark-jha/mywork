@@ -85,7 +85,7 @@ class Card3 extends Component {
               />
             </a>
             <a href="#/Card1">
-              <span class="Card3-dot">+2</span>
+              <span className="Card3-dot">+2</span>
             </a>
           </div>
         </div>

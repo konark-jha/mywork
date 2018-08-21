@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import imgUrl from "../res/img/bg.png";
+import card1_Img from "../res/img/card1_img.png";
 import locTag from "../res/logo/Location.svg";
 import { SingleFeedData } from "../routes/FeedsData.js";
 import "../res/css/card1.css";
@@ -21,7 +21,7 @@ class Card1 extends Component {
       <div
         className="Card1-img"
         style={{
-          background: "url(" + imgUrl + ")",
+          background: "url(" + card1_Img + ")",
           backgroundSize: 400,
           height: 500
         }}
