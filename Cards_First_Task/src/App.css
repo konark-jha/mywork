@@ -1,0 +1,20 @@
+.App {
+  text-align: left;
+}
+.App-Header {
+  height: inherit;
+  width: 10px;
+}
+.App {
+  height: inherit;
+  width: inherit;
+}
+.App-header {
+  height: inherit;
+  width: inherit;
+  color: rgb(46, 35, 202);
+}
+.App-content {
+  height: inherit;
+  width: inherit;
+}

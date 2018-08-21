@@ -1,0 +1,25 @@
+.Game-square {
+  background: #fff;
+  border: 1px solid #999;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px;
+  height: 34px;
+  margin: auto;
+  padding: 1px;
+  text-align: center;
+  width: 34px;
+}
+.Game-board-row {
+  position: relative;
+}
+.Game {
+  display: flex;
+  flex-direction: row;
+}
+.Game-Board {
+  display: block;
+}
+.Game-Info {
+  display: block;
+}

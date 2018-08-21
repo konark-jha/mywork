@@ -1,0 +1,141 @@
+.Card3 {
+  text-align: center;
+}
+.Card3-parentDiv {
+  position: relative;
+  margin: 16px auto;
+  border-radius: 5px;
+  height: 6in;
+  width: 4.2in;
+  border-style: groove;
+  background-color: rgb(243, 247, 247);
+}
+
+.Card3-img {
+  border-radius: 100%;
+  position: absolute;
+  top: 0.5in;
+  left: 1.32in;
+}
+.Card3-content {
+  height: 361px;
+  width: inherit;
+  position: absolute;
+  top: 2.23in;
+}
+.Card3-text1 {
+  font-weight: 550;
+  font-size: 30px;
+  position: absolute;
+  top: 19px;
+  left: 68px;
+}
+.Card3-text2 {
+  position: absolute;
+  top: 72px;
+  left: 149px;
+  font-size: 16px;
+}
+.Card3-btn {
+  position: absolute;
+  top: 33%;
+  left: 33%;
+  border-style: ridge;
+  border-color: rgb(235, 234, 234);
+  line-height: 23px;
+  width: 28%;
+  padding: 8px 16px 8px 8px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  background-color: #ffffff;
+  color: silver;
+}
+.Card3-tabs {
+  position: absolute;
+  bottom: 14%;
+  height: 31%;
+  width: inherit;
+  background-color: silver;
+}
+.Card3-tabs-text {
+  font-weight: 555;
+  font-size: 14px;
+  color: rgb(102, 77, 77);
+  position: absolute;
+  left: 21%;
+  top: 17%;
+}
+.Card3-small-img1 {
+  border-radius: 100%;
+  position: absolute;
+  bottom: 10%;
+  left: 25%;
+  border: 0.5 solid #ffffff;
+}
+.Card3-small-img2 {
+  border-radius: 100%;
+  position: absolute;
+  bottom: 10%;
+  left: 35%;
+  z-index: 2;
+  border: 0.5 solid #ffffff;
+}
+.Card3-small-img3 {
+  border-radius: 100%;
+  position: absolute;
+  bottom: 10%;
+  left: 45%;
+  border: 0.5px solid #ffffff;
+  z-index: 3;
+}
+
+.Card3-small-img4 {
+  border-radius: 100%;
+  position: absolute;
+  bottom: 10%;
+  left: 55%;
+  border: 0.5 solid #ffffff;
+  z-index: 4;
+}
+.Card3-dot {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(67, 141, 211);
+  border-radius: 47%;
+  display: inline-block;
+  border-radius: 100%;
+  position: absolute;
+  text-align: center;
+  line-height: 47px;
+  font-size: 23px;
+  border: 0.5 solid rgb(236, 230, 230);
+  color: #ffffff;
+  bottom: 10%;
+  left: 65%;
+  z-index: 5;
+}
+.Card3-linkedin {
+  position: absolute;
+  bottom: 1.5%;
+  left: 20%;
+  height: 35px;
+  width: 35px;
+}
+
+.Card3-facebook {
+  position: absolute;
+  bottom: 1.5%;
+  left: 42%;
+  height: 32px;
+  width: 32;
+}
+
+.Card3-twitter {
+  position: absolute;
+  bottom: 1.5%;
+  left: 65%;
+  height: 35px;
+  width: 35px;
+}

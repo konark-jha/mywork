@@ -1,0 +1,52 @@
+.Card2 {
+  text-align: center;
+}
+
+.Card2-parentDiv {
+  margin: auto;
+  border-radius: 5px;
+  background: rgb(240, 240, 240);
+  position: relative;
+  height: 5.6in;
+  width: 4.33in;
+  padding: 16px;
+}
+.Card2-img {
+  width: 4.33in;
+  position: absolute;
+  top: 17px;
+  left: 17px;
+}
+.Card2-Content {
+  width: 4.33in;
+  position: relative;
+  top: 2.57in;
+}
+.Card2-text1 {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 27px;
+  text-align: left;
+  position: absolute;
+  bottom: 1.6in;
+  left: 33px;
+}
+.Card2-text2 {
+  color: rgb(0, 0, 0);
+
+  font-size: 23px;
+  text-align: left;
+  position: absolute;
+  bottom: 0.8in;
+  left: 33px;
+}
+.Card2-link {
+  color: orangered;
+  font-weight: 555;
+  font-size: 18px;
+  text-decoration: none;
+  position: absolute;
+  padding: 0px;
+  bottom: 22px;
+  left: 33px;
+}
