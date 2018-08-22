@@ -1,6 +1,6 @@
 import map from "lodash.map";
 import cloneDeep from "lodash.clonedeep";
-//import Card1 from "../cards/card1.js";
+// import Card1 from "../cards/card1.js";
 const PeopleData = {
   1: {
     name: "Prakash Sanker",
@@ -135,7 +135,6 @@ const getRandomCard1Text = () => {
 
 const createType1Card = () => {
   return {
-    type: TYPE_1,
     cardData: {
       image: getRandomImageUrl(),
       ...getRandomCard1Text()

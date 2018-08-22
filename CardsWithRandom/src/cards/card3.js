@@ -1,12 +1,16 @@
 import React, { Component } from "react";
-import ProfileImg from "../res/img/Profile.png";
-import Facebook from "../res/logo/facebook.svg";
-import Linkedin from "../res/logo/Linkedin.svg";
-import Twitter from "../res/logo/Twitter.svg";
-import img1 from "../res/img/Profile_1.png";
-import img2 from "../res/img/Profile_2.png";
-import img3 from "../res/img/Profile_3.png";
-import img4 from "../res/img/Profile_4.png";
+// import Facebook from "../res/logo/facebook.svg";
+// import Linkedin from "../res/logo/Linkedin.svg";
+// import Twitter from "../res/logo/Twitter.svg";
+// import img1 from "../res/img/Profile_1.png";
+// import img2 from "../res/img/Profile_2.png";
+// import img3 from "../res/img/Profile_3.png";
+// import img4 from "../res/img/Profile_4.png";
+import {
+  getRandomFeedsData,
+  getRandomProfileImageUrl,
+  svgImg
+} from "../avatar";
 
 import "../res/css/card3.css";
 
@@ -14,10 +18,18 @@ class Card3 extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: "Alexandra Dadario",
-      company: "Parker Industries",
-      designation: "UX DESIGNER",
-      colab: "USUALLY COLLABORATED WITH"
+      name: getRandomFeedsData().name,
+      company: getRandomFeedsData().company,
+      designation: getRandomFeedsData().designation,
+      colab: getRandomFeedsData().colab,
+      Facebook: svgImg.Facebook,
+      Linkedin: svgImg.Linkedin,
+      Twitter: svgImg.Twitter,
+      img: getRandomProfileImageUrl(),
+      img1: getRandomProfileImageUrl(),
+      img2: getRandomProfileImageUrl(),
+      img3: getRandomProfileImageUrl(),
+      img4: getRandomProfileImageUrl()
     };
   }
 
@@ -27,7 +39,7 @@ class Card3 extends Component {
         <div
           className="Card3-img"
           style={{
-            background: "url(" + ProfileImg + ")",
+            background: "url(" + this.state.img + ")",
             backgroundSize: 150,
             height: 150,
             width: 150
@@ -44,7 +56,7 @@ class Card3 extends Component {
               <div
                 className="Card3-small-img1"
                 style={{
-                  background: "url(" + img1 + ")",
+                  background: "url(" + this.state.img1 + ")",
                   backgroundSize: 47,
                   height: 47,
                   width: 47
@@ -55,7 +67,7 @@ class Card3 extends Component {
               <div
                 className="Card3-small-img2"
                 style={{
-                  background: "url(" + img2 + ")",
+                  background: "url(" + this.state.img2 + ")",
                   backgroundSize: 47,
                   height: 47,
                   width: 47
@@ -66,7 +78,7 @@ class Card3 extends Component {
               <div
                 className="Card3-small-img3"
                 style={{
-                  background: "url(" + img3 + ")",
+                  background: "url(" + this.state.img3 + ")",
                   backgroundSize: 47,
                   height: 47,
                   width: 47
@@ -77,7 +89,7 @@ class Card3 extends Component {
               <div
                 className="Card3-small-img4"
                 style={{
-                  background: "url(" + img4 + ")",
+                  background: "url(" + this.state.img4 + ")",
                   backgroundSize: 47,
                   height: 47,
                   width: 47
@@ -90,13 +102,25 @@ class Card3 extends Component {
           </div>
         </div>
         <a href="https://www.facebook.com/konarkjha">
-          <img src={Facebook} className="Card3-facebook" alt="Facebook" />
+          <img
+            src={this.state.Facebook}
+            className="Card3-facebook"
+            alt="Facebook"
+          />
         </a>
         <a href="https://www.linkedin.com/in/konarkjha/">
-          <img src={Linkedin} className="Card3-linkedin" alt="Linkedin" />
+          <img
+            src={this.state.Linkedin}
+            className="Card3-linkedin"
+            alt="Linkedin"
+          />
         </a>
         <a href="https://twitter.com/konarkjha/">
-          <img src={Twitter} className="Card3-twitter" alt="Twitter" />
+          <img
+            src={this.state.Twitter}
+            className="Card3-twitter"
+            alt="Twitter"
+          />
         </a>
       </div>
     );

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import card2_Img from "../res/img/card2_img.png";
+import { svgImg } from "../avatar";
 import "../res/css/card2.css";
 
 class Card2 extends Component {
@@ -9,7 +9,8 @@ class Card2 extends Component {
       heading: "No penalty on withdrawal from your fixed deposit",
       subtext:
         "On First partial withdrawal upto 25% of your original FD principal value ",
-      tag: "KNOW MORE"
+      tag: "KNOW MORE",
+      img: svgImg.card2_img
     };
   }
   render() {
@@ -18,7 +19,7 @@ class Card2 extends Component {
         <div
           className="Card2-img"
           style={{
-            background: "url(" + card2_Img + ")",
+            background: "url(" + this.state.img + ")",
             backgroundSize: 415,
             height: 250
           }}
