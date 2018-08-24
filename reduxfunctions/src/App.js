@@ -9,21 +9,12 @@ class App extends React.Component {
         return initialState + 1;
       } else if (action.type === "DEC") {
         return initialState - 1;
-      } else if (action.type === "E") {
-        throw new error("AAAAA!!!!!");
       }
       return initialState;
     };
     const logger = store => next => action => {
       console.log("action fired", action);
       next(action);
-    };
-    const error = store => next => action => {
-      try {
-        next(action);
-      } catch (E) {
-        console.log("err!!!!", E);
-      }
     };
 
     const middleware = applyMiddleware(logger);
@@ -37,7 +28,7 @@ class App extends React.Component {
     store.dispatch({ type: "CHANGE_NAME", payload: "konark jha" });
     store.dispatch({ type: "CHANGE_AGE", payload: 26 });
     store.dispatch({ type: "CHANGE_AGE", payload: 27 });
-    store.dispatch({ type: "E", payload: "A!!!!!!!!!" });
+    store.dispatch({ type: "e", payload: "A!!!!!!!!!" });
 
     return <div>YOLO</div>;
   }
