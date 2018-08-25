@@ -1,0 +1,16 @@
+NO:1 contains>> text change on mouse hover, feed data on click,show text on console on copy {onClick,onChange,OnMouseHover,onCopy}
+
+NO:2 contains>> feed data textbox to change text line and show text on console with onSubmit not onClick so that enter submit can work :)
+
+NO:3 contains>> just using this.state :(
+
+NO:4 contains>> fetching conplete array using map Func() >>const peopleList = persons.map(newArray => {}<<
+
+NO:5 contains>> using stateless Components i.e. no class no render just export on other class 
+
+NO:6 contains>> Condition Turnery Operator >>   ?   <<  i.e. person > 20 can only show in array 
+
+NO:7 contains>> adding new person to old persons array using >>let person = [...this.state.personsArray, P];<< Using Spread operator (...this.) so that new elements can be add to our Array&& generating id randomly using Math.random();  XD.
+
+that's all folks...
+

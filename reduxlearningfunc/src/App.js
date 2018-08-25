@@ -74,6 +74,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <p>NO: 1</p>
         <h1>{this.state.text}</h1>
         <p>
           my name is {this.state.name} and ny age is {this.state.age}
@@ -82,20 +83,26 @@ class App extends React.Component {
         <button onMouseOver={this.handelMouseHover}> Hover Me </button>
         <p onCopy={this.handelCopy}>Copy this</p>
         <p>*/////////////////////////////////////////////////////*</p>
+        <p>NO: 2</p>
         <Form />
         <br /> <br /> <br /> <br /> <br /> <br />
-        <p>*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*</p>
+        <p>NO: 3</p>
+        <p>*\\\\\\\\\\\\\\\\\\\\\\\\\I\G\N\O\R\E\\\\\\\\\\\\\\\\\\\\\\\\\*</p>
         <Propss name="foo" age="10" country="India" />
-        <p>*---------------------------------------------------*</p>
+        <p>NO: 4</p>
+        <p>*------------F-E-T-C-H--C-O-M-P-L-E-T-E-A-R-R-A-Y---------*</p>
         <MapsList persons={this.state.personsArray} />
         <p>
+          <p>NO: 5</p>
           *----------------S-T-A-T-E-L-E-S-S--C-O-M-P-O-N-E-N-T------------------*
         </p>
         <StateLessComp persons={this.state.personsArray} />
         <p>
+          <p>NO: 6</p>
           *--------------C-O-N-D-I-T-I-O-N--T-U-R--O-P-R-E-A-T-O-R---------*
         </p>
         <ConditionOp persons={this.state.personsArray} />
+        <p>NO: 7</p>
         <p>*------------------A-D-D--P-E-R-S-O-N-----------------------*</p>
         <AddPerson addPerson={this.addPerson} />
       </div>

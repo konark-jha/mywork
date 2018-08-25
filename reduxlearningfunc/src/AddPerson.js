@@ -27,6 +27,7 @@ class AddPerson extends Component {
           <label htmlFor="name">Country:</label>
           <input type="text" id="country" onChange={this.handelChange} />
           <button>Submit!</button>
+          <br /> <br /> <br /> <br /> <br />
         </form>
       </div>
     );
